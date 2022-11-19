@@ -1,0 +1,26 @@
+-Create components folder
+-Created navbar component inside components folder and used bootstrap for initial styling
+-Import fonts and set default css settings in css file
+-Updated navbar css stylings in css file
+-Add navigation bar to App.js file to see it on the page
+-Make sure to import import ('bootstrap/dist/css/bootstrap.min.css';) to app.js
+-Add Banner component to App.js
+-install react icons and react bootstrap
+-Create Banner component in components folder. This is how I will announce professional title.
+-design banner use react-bootstrap packages and css animations
+-Create component for skills in components folder
+-install react carousel and import carousel of choice
+-Customize carousel with approriate skills
+-design skills section with CSS
+-next build Projects component in components folder and import into App.js
+-update css design for projects using Bootstrap as frameword for tabs
+-Build Contact component (build a form) for contact section
+-To send info, need to use mailserver (Nodemailer) will need cors, express, and Nodemailer
+-Create server.js create config for Node mailer package
+-Set up MailChimpForm in components that will work as a wrapper of our cutsom form. This is where I will generate the URL to pass on. 
+-use ENV variable to prudently protect mailchimp info.
+-Create newsletter component
+-Create footer components
+-Customize newsletter and footer to your liking with CSS
+-Play with CSS animations to make website pop out
+-Install react-on-screen
