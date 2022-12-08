@@ -16,9 +16,9 @@ function Footer(){
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
-                            <a href=""><img src={navIcon1} /></a>
-                            <a href=""><img src={navIcon2} /></a>
-                            <a href=""><img src={navIcon3} /></a>
+                            <a href="https://www.linkedin.com/in/gabrielvillaruel/"><img src={navIcon1} alt="LinkedIN"/></a>
+                            <a href="www.facebook.com"><img src={navIcon2} alt="Facebook icon"/></a>
+                            <a href="https://github.com/GPVcode"><img src={navIcon3} alt="GitHub Profile"/></a>
                         </div>
                         <p>Copyright 2022. All Rights Reserved by Gabriel Villaruel</p>
                     </Col>

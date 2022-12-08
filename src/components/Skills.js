@@ -49,31 +49,31 @@ function Skills(){
                             <p>Some text to describe the SKILLS!</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={javascriptIcon} alt="Image" />
+                                    <img src={javascriptIcon} alt="JS Icon" />
                                     <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={reactIcon} alt="Image" />
+                                    <img src={reactIcon} alt="React Icon" />
                                     <h5>React</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={nodeJS} alt="Image" />
+                                    <img src={nodeJS} alt="Node Icon" />
                                     <h5>NodeJS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={gitIcon} alt="Image" />
+                                    <img src={gitIcon} alt="Git Icon" />
                                     <h5>Git</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={githubIcon} alt="Image" />
+                                    <img src={githubIcon} alt="Github Icon" />
                                     <h5>Github</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={postgresql} alt="Image" />
+                                    <img src={postgresql} alt="Postgresql Icon" />
                                     <h5>Postgresql</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={CSS} alt="Image" />
+                                    <img src={CSS} alt="Css Icon" />
                                     <h5>CSS</h5>
                                 </div>
                             </ Carousel>
@@ -81,7 +81,7 @@ function Skills(){
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} />
+            <img className="background-image-left" src={colorSharp} alt="background tint"/>
         </section>
     )
 }

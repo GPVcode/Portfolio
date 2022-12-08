@@ -5,7 +5,7 @@ import React, {useState, useEffect} from "react"
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/icons8-github (2).svg';
+import navIcon3 from '../assets/img/icons8-github (3).svg';
 
 function NavBar() {
     //managing which link we are on
@@ -46,12 +46,13 @@ function NavBar() {
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+            <Nav.Link href="blogs" to="/blogs" className={activeLink === 'blogs' ? 'active navbar-link' : 'navbar-link'} >Blogs</Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/gabrielvillaruel/"><img src={navIcon1} alt="linkedIn icon" /></a>
+                <a href="www.facebook.com"><img src={navIcon2} alt="Facebook icon" /></a>
+                <a href="https://github.com/GPVcode"><img src={navIcon3} alt="GitHub Profile" /></a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
           </span>
